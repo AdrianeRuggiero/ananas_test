@@ -30,6 +30,6 @@ if __name__ == '__main__':
     suite.addTest(TestChainelist('test_chainelist_vide'))
     suite.addTest(TestChainelist('test_chainelist_mix_types'))
 
-    # Exécution des tests
+    # Exécution des tests runner
     runner = unittest.TextTestRunner()
     runner.run(suite)
