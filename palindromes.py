@@ -13,6 +13,7 @@ def compter_palindromes(liste_mots):
     return nb_palindromes
 
 
+"""
 # Liste de mots à vérifier
 liste_mots = ["radar", "level", "python", "stats", "racecar"]
 
@@ -21,3 +22,4 @@ nb_palindromes = compter_palindromes(liste_mots)
 
 # Affiche le nombre de palindromes dans la liste
 print("Nombre de palindromes dans la liste :", nb_palindromes)
+"""
