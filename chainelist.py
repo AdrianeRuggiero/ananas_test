@@ -12,10 +12,12 @@ def chainelist(list):
             listFinal.append(elt)
     return listFinal
 
+#pour distinguer le code qui doit être exécuté
+if __name__ == '__main__':
+    # Demander à l'utilisateur d'entrer une liste
+    user_input = input("entrer une liste : ")
+    user_list = user_input.split()
 
-# Demander à l'utilisateur d'entrer une liste
-list = input("entrer une liste :").split()
-
-# Appeler la fonction et afficher le résultat
-result = chainelist(list)
-print(f"votre liste unique est: {result}")
+    # Appeler la fonction et afficher le résultat
+    result = chainelist(user_list)
+    print(f"votre liste unique est: {result}")
