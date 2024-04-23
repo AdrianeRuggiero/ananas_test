@@ -23,7 +23,7 @@ class TestCompterPalindromes(unittest.TestCase):
         self.assertEqual(result, 5)
 
 
-def suite():
+if __name__ == '__main__':
     # Création de la suite de tests
     suite = unittest.TestSuite()
     suite.addTest(TestCompterPalindromes('test_compter_palindromes'))
@@ -31,10 +31,7 @@ def suite():
     suite.addTest(
         TestCompterPalindromes('test_compter_palindromes_tous_palindromes')
     )
-    return suite
 
-
-if __name__ == '__main__':
     # Exécution des tests runner
     runner = unittest.TextTestRunner()
-    runner.run(suite())
+    runner.run(suite)
