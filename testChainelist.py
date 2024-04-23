@@ -2,8 +2,9 @@ import unittest
 from chainelist import chainelist
 
 
+# j'ai défini une classe TestChainelist qui hérite de unittest.TestCase
 class TestChainelist(unittest.TestCase):
-
+    # j'ai défini trois méthodes de test différentes
     def test_chainelist_doublon(self):
         # Cas de test avec des éléments en doublon
         input_list = ['a', 'b', 'a', 'c', 'b']
